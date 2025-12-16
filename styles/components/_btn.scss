@@ -1,0 +1,41 @@
+@use "../settings/variables" as *;
+@use "sass:color";
+
+$colors: (
+  primary: $color-primary-500,
+  danger: $color-danger,
+  success: $color-success,
+  dark: $color-text,
+);
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  position: relative;
+  border-radius: $bdrs-sm;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@each $name, $color in $colors {
+  .btn--#{$name} {
+    background-color: $color;
+    color: $color-bg;
+  }
+
+  .btn--#{$name}:hover {
+    background-color: color.adjust($color, $lightness: -8%);
+  }
+
+  .btn--#{$name}:active {
+    background-color: color.adjust($color, $lightness: -12%);
+  }
+}
+
+.btn--pill {
+  border-radius: $bdrs-round;
+}
