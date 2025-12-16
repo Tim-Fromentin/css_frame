@@ -18,7 +18,7 @@ $colors: (
   padding: 10px 30px;
   cursor: pointer;
   border: none;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, outline-color .3s ease-in-out, color .3s ease-in-out;
 }
 
 @each $name, $color in $colors {
@@ -38,4 +38,27 @@ $colors: (
 
 .btn--pill {
   border-radius: $bdrs-round;
+}
+
+
+@each $name, $color in $colors {
+  .btn--#{$name} {
+    background-color: $color;
+    color: $color-bg;
+  }
+
+  .btn--#{$name}.btn--outline {
+    background-color: $color-bg;
+    color: $color-text;
+    outline: 3px solid $color;
+  }
+    .btn--#{$name}.btn--outline:hover {
+    background-color: $color;
+    color: $color-bg;
+  }
+    .btn--#{$name}.btn--outline:active {
+    background-color: color.adjust($color, $lightness: -12%);
+    outline-color: color.adjust($color, $lightness: -12%);
+    color: $color-bg;
+  }
 }
