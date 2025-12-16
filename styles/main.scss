@@ -1,0 +1,29 @@
+@use "settings/variables" as *;
+@use "utilities/color";
+
+@use "generic/reset";
+@use "generic/link";
+
+@use "objects/grid";
+
+@use "components/btn";
+@use "components/card";
+@use "components/input";
+@use "components/navbar";
+@use "components/popup";
+@use "components/modal";
+
+@use "tools/animations";
+
+@use "utilities/display";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background: $color-bg;
+  color: $color-text;
+  font-family: $ff-base;
+  font-size: $fz-md;
+  font-weight: $fw-regular;
+  padding: $layout-padding-y $layout-padding-x;
+}

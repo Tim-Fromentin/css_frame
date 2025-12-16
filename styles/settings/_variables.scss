@@ -1,0 +1,116 @@
+// ===============================
+// PRIMARY — Royal Blue (modern framework core)
+// ===============================
+$color-primary-50:  #EEEEFF;
+$color-primary-100: #E0E1FF;
+$color-primary-200: #C7C8FE;
+$color-primary-300: #A5A7FC;
+$color-primary-400: #8184F8;
+$color-primary-500: #6366F1; // base
+$color-primary-600: #4649E5;
+$color-primary-700: #383BCA;
+$color-primary-800: #3032A3;
+$color-primary-900: #2E3081;
+$color-primary-950: #1B1C4B;
+
+// ===============================
+// SECONDARY — Slate / Neutral blue-gray
+// ===============================
+$color-secondary:       #111827;
+$color-secondary-light: #1F2937;
+$color-secondary-dark:  #020617;
+
+// ===============================
+// ACCENTUATION 1 — Cyan (focus / interaction)
+// ===============================
+$color-accentuation-1:       #22D3EE;
+$color-accentuation-1-light: #67E8F9;
+$color-accentuation-1-dark:  #0891B2;
+
+// ===============================
+// ACCENTUATION 2 — Amber / Orange (CTA / badges)
+// ===============================
+$color-accentuation-2:       #F59E0B;
+$color-accentuation-2-light: #FCD34D;
+$color-accentuation-2-dark:  #B45309;
+
+// ===============================
+// DANGER — Red (errors / alerts)
+// ===============================
+$color-danger:       #DC2626;
+$color-danger-light: #FCA5A5;
+$color-danger-dark:  #7F1D1D;
+
+// ===============================
+// SUCCESS — Green (validation / success)
+// ===============================
+$color-success:       #16A34A;
+$color-success-light: #4ADE80;
+$color-success-dark:  #166534;
+
+// ===============================
+// BACKGROUND & TEXT — Clean & readable
+// ===============================
+$color-bg:         #F8FAFC;
+$color-bg-alt:     #EEF2FF;
+
+$color-text:       #111827;
+$color-text-light: #6B7280;
+
+
+
+$color-white: #fff;
+// ------------------------------
+// Typography
+// ------------------------------
+
+// Font Family
+$ff-base: "Inter", sans-serif;
+
+// Font size
+$fz-xxl: 4.8rem;
+$fz-xl: 3.2rem;
+$fz-lg: 2rem;
+$fz-md: 1.6rem;
+$fz-sm: 1.4rem;
+$fz-xs: 1.2rem;
+
+// Font weight
+$fw-light: 200;
+$fw-regular: 500;
+$fw-semi: 600;
+$fw-bold: 900;
+
+// ------------------------------
+// Border radius
+// ------------------------------
+$bdrs-round: 50px;
+$bdrs-sm: 5px;
+
+// ------------------------------
+// Layout Spacing
+// ------------------------------
+$layout-padding-x: 50px;
+$layout-padding-y: 100px;
+
+/* ======================= Padding ======================= */
+
+
+$padding-0: 0;       // 0px
+$padding-1: 0.4rem;  // 4px
+$padding-2: 0.8rem;  // 8px
+$padding-3: 1.2rem;  // 12px
+$padding-4: 1.6rem;  // 16px
+$padding-5: 2rem;    // 20px
+$padding-6: 2.4rem;  // 24px
+$padding-7: 2.8rem;  // 28px
+$padding-8: 3.2rem;  // 32px
+$padding-9: 3.6rem;  // 36px
+$padding-10: 4rem;   // 40px
+$padding-12: 4.8rem; // 48px
+$padding-14: 5.6rem; // 56px
+$padding-16: 6.4rem; // 64px
+$padding-20: 8rem;   // 80px
+$padding-24: 9.6rem; // 96px
+
+
