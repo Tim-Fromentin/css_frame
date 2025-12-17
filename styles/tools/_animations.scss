@@ -63,3 +63,22 @@ $colors: (
 .anim--link-underline:hover::before {
     width: 100%;
 }
+.anim--reduce {
+    transition: scale .3s ease-in-out;
+}
+.anim--reduce:hover {
+    scale: .9;
+}
+.anim--pulse:hover {
+    animation: pulse 1s 1 ease-in-out;
+}
+@keyframes pulse {
+    0%, 1%, 99%, 100% {
+        box-shadow: 0;
+    }
+    50%,51% {
+        box-shadow: 1px 1px 25px $color-primary-500;
+    }
+
+}
+
