@@ -81,4 +81,18 @@ $colors: (
     }
 
 }
+.anim--vibrate:hover {
+    animation: vibrate .5s 1 ease-in-out;
+}
+@keyframes vibrate {
+  0%, 100% {
+    transform: rotate(0)
+  }
+  25% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(4deg);
+  }
+}
 
