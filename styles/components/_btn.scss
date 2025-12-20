@@ -1,12 +1,7 @@
 @use "../settings/variables" as *;
+@use "../tools/color-utils" as *;
+@use "../settings/colors" as *;
 @use "sass:color";
-
-$colors: (
-  primary: $color-primary-500,
-  danger: $color-danger,
-  success: $color-success,
-  dark: $color-text,
-);
 
 .btn {
   display: inline-flex;
@@ -21,7 +16,7 @@ $colors: (
   transition: background-color 0.3s ease-in-out, outline-color .3s ease-in-out, color .3s ease-in-out;
 }
 
-@each $name, $color in $colors {
+@include each-color($colors) using ($name, $color) {
   .btn--#{$name} {
     background-color: $color;
     color: $color-bg;
@@ -41,7 +36,7 @@ $colors: (
 }
 
 
-@each $name, $color in $colors {
+@include each-color($colors) using ($name, $color) {
   .btn--#{$name} {
     background-color: $color;
     color: $color-bg;
@@ -50,7 +45,7 @@ $colors: (
   .btn--#{$name}.btn--outline {
     background-color: $color-bg;
     color: $color-text;
-    outline: 3px solid $color;
+    outline: 1px solid $color;
   }
     .btn--#{$name}.btn--outline:hover {
     background-color: $color;

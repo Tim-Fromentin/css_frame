@@ -1,0 +1,5 @@
+@mixin each-color($colors) {
+  @each $name, $color in $colors {
+    @content ($name, $color);
+  }
+}
