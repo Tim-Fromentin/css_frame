@@ -1,0 +1,5 @@
+@for $index from 1 through 10  {
+    .pd--#{$index}{
+        padding: 4px * $index;
+    }
+}
