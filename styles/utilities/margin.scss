@@ -1,0 +1,17 @@
+@for $index from 1 through 10  {
+    .m--#{$index}{
+        margin: 4px * $index;
+    }
+    .mt--#{$index}{
+        margin-top: 4px * $index;
+    }
+    .mr--#{$index}{
+        margin-right: 4px * $index;
+    }
+    .ml--#{$index}{
+        margin-left: 4px * $index;
+    }
+    .mb--#{$index}{
+        margin-left: 4px * $index;
+    }
+}

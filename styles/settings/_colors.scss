@@ -1,0 +1,9 @@
+@use "../settings/variables" as *;
+
+$colors: (
+  primary: $color-primary-500,
+  danger: $color-danger-500,
+  success: $color-success-500,
+  dark: $color-text,
+  gray: $color-gray-500
+);

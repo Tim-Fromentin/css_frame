@@ -1,0 +1,8 @@
+@use "../settings/colors" as *;
+@use "../tools/color-utils" as *;
+
+@include each-color($colors) using ($name, $color){
+    .bg--#{$name}{
+        background-color: $color;
+    }
+}

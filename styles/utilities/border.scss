@@ -1,0 +1,8 @@
+@use "../settings/colors" as *;
+@use "../tools/color-utils" as *;
+
+@include each-color($colors) using ($name, $color) {
+  .border--#{$name} {
+    border: 1px solid $color;
+  }
+}

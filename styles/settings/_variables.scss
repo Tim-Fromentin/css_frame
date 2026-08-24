@@ -1,65 +1,103 @@
 // ===============================
-// PRIMARY — Royal Blue (modern framework core)
+// PRIMARY — Royal Blue (framework core)
 // ===============================
-$color-primary-50:  #EEEEFF;
-$color-primary-100: #E0E1FF;
-$color-primary-200: #C7C8FE;
-$color-primary-300: #A5A7FC;
-$color-primary-400: #8184F8;
+$color-primary-50:  #F5F6FF;
+$color-primary-100: #E6E7FF;
+$color-primary-200: #C9CBFF;
+$color-primary-300: #A6A9FC;
+$color-primary-400: #7F83F8;
 $color-primary-500: #6366F1; // base
-$color-primary-600: #4649E5;
-$color-primary-700: #383BCA;
-$color-primary-800: #3032A3;
-$color-primary-900: #2E3081;
-$color-primary-950: #1B1C4B;
+$color-primary-600: #4B4FE5;
+$color-primary-700: #373ACD;
+$color-primary-800: #2B2B9F;
+$color-primary-900: #1F1F80;
+$color-primary-950: #14144B;
 
 // ===============================
 // SECONDARY — Slate / Neutral blue-gray
 // ===============================
-$color-secondary:       #111827;
-$color-secondary-light: #1F2937;
-$color-secondary-dark:  #020617;
+$color-secondary-50:  #F8FAFC;
+$color-secondary-100: #F1F3F8;
+$color-secondary-200: #E2E6F0;
+$color-secondary-300: #D1D6E3;
+$color-secondary-400: #A9AFBC;
+$color-secondary-500: #6B7280; // base
+$color-secondary-600: #4B5563;
+$color-secondary-700: #374151;
+$color-secondary-800: #1F2937;
+$color-secondary-900: #111827;
 
 // ===============================
-// ACCENTUATION 1 — Cyan (focus / interaction)
+// ACCENT 1 — Cyan / Aqua (focus / interaction)
 // ===============================
-$color-accentuation-1:       #22D3EE;
-$color-accentuation-1-light: #67E8F9;
-$color-accentuation-1-dark:  #0891B2;
+$color-accent-1-50:  #E0FCFF;
+$color-accent-1-100: #BEF8FD;
+$color-accent-1-200: #7EE5F5;
+$color-accent-1-300: #22D3EE; // base
+$color-accent-1-400: #0BA5C0;
+$color-accent-1-500: #0369A1;
+$color-accent-1-600: #075985;
 
 // ===============================
-// ACCENTUATION 2 — Amber / Orange (CTA / badges)
+// ACCENT 2 — Amber / Orange (CTA / badges)
 // ===============================
-$color-accentuation-2:       #F59E0B;
-$color-accentuation-2-light: #FCD34D;
-$color-accentuation-2-dark:  #B45309;
+$color-accent-2-50:  #FFF8E6;
+$color-accent-2-100: #FEF3C7;
+$color-accent-2-200: #FCD34D;
+$color-accent-2-300: #FBBF24;
+$color-accent-2-400: #F59E0B; // base
+$color-accent-2-500: #D97706;
+$color-accent-2-600: #B45309;
+$color-accent-2-700: #78350F;
 
 // ===============================
 // DANGER — Red (errors / alerts)
 // ===============================
-$color-danger:       #DC2626;
-$color-danger-light: #FCA5A5;
-$color-danger-dark:  #7F1D1D;
+$color-danger-50:  #FEE2E2;
+$color-danger-100: #FECACA;
+$color-danger-200: #FCA5A5;
+$color-danger-300: #F87171;
+$color-danger-400: #EF4444;
+$color-danger-500: #DC2626; // base
+$color-danger-600: #B91C1C;
+$color-danger-700: #991B1B;
 
 // ===============================
 // SUCCESS — Green (validation / success)
 // ===============================
-$color-success:       #16A34A;
-$color-success-light: #4ADE80;
-$color-success-dark:  #166534;
+$color-success-50:  #DCFCE7;
+$color-success-100: #BBF7D0;
+$color-success-200: #86EFAC;
+$color-success-300: #4ADE80;
+$color-success-400: #22C55E;
+$color-success-500: #16A34A; // base
+$color-success-600: #15803D;
+$color-success-700: #166534;
 
 // ===============================
 // BACKGROUND & TEXT — Clean & readable
 // ===============================
-$color-bg:         #F8FAFC;
-$color-bg-alt:     #EEF2FF;
+$color-bg:         #F8FAFC; // page background
+$color-bg-alt:     #EEF2FF; // alternate / section
+$color-text:       #111827; // main text
+$color-text-light: #6B7280; // secondary text
+$color-white:      #FFFFFF; // base white
+$color-black:      #000000; // base black
 
-$color-text:       #111827;
-$color-text-light: #6B7280;
+// ===============================
+// NEUTRAL — Grayscale system
+// ===============================
+$color-gray-50:  #F9FAFB;
+$color-gray-100: #F3F4F6;
+$color-gray-200: #E5E7EB;
+$color-gray-300: #D1D5DB;
+$color-gray-400: #9CA3AF;
+$color-gray-500: #6B7280;
+$color-gray-600: #4B5563;
+$color-gray-700: #374151;
+$color-gray-800: #1F2937;
+$color-gray-900: #111827;
 
-
-
-$color-white: #fff;
 // ------------------------------
 // Typography
 // ------------------------------
