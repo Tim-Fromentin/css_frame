@@ -1,6 +1,4 @@
 
-# Style Guide <!-- omit in toc -->
-#### [Lire le README](../../../../Downloads/css-master/css-master/README.md) <!-- omit in toc -->
 # Sommaire <!-- omit in toc -->
 - [Naming system](#naming-system)
   - [Block](#block)
